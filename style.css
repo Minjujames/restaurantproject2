@@ -1,0 +1,104 @@
+body {
+    background:-webkit-gradient(linear, 0% 0%, 100% 100%,from(#f05555), to(#58057f));;
+    text-align: center;
+    font-size:medium;
+    padding:20px;
+  }
+  .grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-row-start:repeat(2,50px);
+    border: 10px solid#9132a8;
+  }
+
+  .tacos{
+    background-color:rgb(221, 178, 23);
+    font-size: large;
+    padding:10px;
+    border: 10px solid#9132a8;
+  }
+  .beers{
+    background-color:rgb(221, 178, 23);
+    font-size: large;
+    padding:10px;
+    border: 10px solid#9132a8;
+  }
+  .wines{
+    background-color:rgb(221, 178, 23);
+    font-size: large;
+    padding:10px;
+    border: 10px solid#9132a8;
+  }
+  .desserts{
+    background-color:rgb(221, 178, 23);
+    font-size: large;
+    padding:10px;
+    border: 10px solid#9132a8;
+  }
+  .reservations{
+    background-color:rgb(221, 178, 23);
+    font-size: large;
+    padding:10px;
+    border: 10px solid#9132a8;
+  }
+  .headertop {
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-row-start:repeat(2,50px);
+    padding:10px;
+   
+  } 
+  .about {
+    background-color:#9132a8;
+  
+      display:grid;
+      grid-template-columns: 3fr 2fr;
+      grid-row-start:repeat(2,50px);     
+  } 
+ 
+  .about1{
+background-color:rgb(221, 178, 23);
+padding:10px;
+border: 10px solid#9132a8;
+
+  }
+  .about2{
+    background-color:rgb(221, 178, 23);
+    padding:10px;
+    border: 10px solid#9132a8;
+    
+  }
+  .box{
+    background:white;
+    color:black;
+   font-size: 16px;
+ display:grid;
+ grid-template-columns: 1fr 3fr ;
+ grid-row-start:repeat(2,50px);
+
+  }
+  .boxes{
+    background:white;
+    color:black;
+   font-size: 16px;
+ display:grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ grid-row-start:repeat(2,50px);
+ padding:10px;
+ 
+  }
+ .boxes div{
+  border:10px solid #9132a8;
+  background-color: beige;
+ }
+  .hours {
+    grid-column:1/span 2;
+    background-color: #5f5c5f;
+    }
+  .footers{
+    
+    color:black;
+   font-size: 16px;
+ display:grid;
+ grid-template-columns: auto auto auto auto;
+ width:100%;
+  }
